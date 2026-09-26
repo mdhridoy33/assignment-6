@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { WorkoutItem } from '../../types/workout';
+import { WorkoutItem } from '../../components/types/workout';
 
 
 export default function WorkoutDetailPage({ params }: { params: Promise<{ id: string }> }) {
